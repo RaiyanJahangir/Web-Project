@@ -1,0 +1,39 @@
+body {
+    background-image: url('./images/books2.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+  }
+
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:rgb(8, 8, 8);
+    text-align: center;
+  }
+
+  #showcase h1{
+    margin-top:20px;
+    text-align:center;
+    /*color: white;*/
+    color:rgb(240, 121, 10);
+  
+    font-weight:Bold;
+    font-size:55px;
+}
+
+.form_shape{
+    width:40%;
+    height:90%;
+    margin:auto;
+    color:white;
+    background-color:rgb(240, 121, 10);
+    margin-top:50px;
+    margin-bottom:20px;
+    padding:20px;
+    font-weight:bold;
+    font-size:15px;
+}
+a{
+  text-decoration:none;
+}

@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOKWORM'S CLUB | CONTACT</title>
+    <link rel="stylesheet" href="style9.css">
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+<!-- Profile Card Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/png" href="title.png">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">BookWorm's Club</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="HomePage.html" >HOME <span class="sr-only">(current)</span></a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="AboutPage.html" >ABOUT</a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="HomePage.html" >CONTACT <span class="sr-only">(current)</span></a>
+              </li>
+          
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+        <div id="logout"><button class="btn btn-outline-success my-2 my-sm-0 " type="submit"><a href="LoginPage.html">Log In</a></button></div>
+      </nav>
+
+     <!-- <p class="full">
+        <button type="submit" onclick="showpastcomments()">Check all comments</button>
+      </p>-->
+
+
+      <div class="container">
+        <h1 class="brand"><span>BOOKWORM'S</span> CLUB</h1>
+        <div class="wrapper">
+          <div class="company-info">
+            <h3>BOOKWORM'S CLUB</h3>
+            <ul>
+              <li><i class="fa fa-road"></i> 44 Something st</li>
+              <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+              <li><i class="fa fa-envelope"></i> bkwmclub@gmail.com</li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h3>Give a review:</h3>
+            <div class="alert">Your message has been posted, redirecting to home</div>
+            <form id="contactForm">
+              <p>
+                <label>Name</label>
+                <input type="text" name="name" id="name" required>
+              </p>
+              <p>
+                <label>Company</label>
+                <input type="text" name="company" id="company">
+              </p>
+              <p>
+                <label>Email Address</label>
+                <input type="email" name="email" id="email" required>
+              </p>
+              <p>
+                <label>Phone Number</label>
+                <input type="text" name="phone" id="phone">
+              </p>
+              <p class="full">
+                <label>Message</label>
+                <textarea name="message" rows="5" id="message"></textarea>
+              </p>
+              <p class="full">
+                <button type="submit" onclick="submitForm()">Submit</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div>
+        <h1 id="heading">Comments and Reviews:</h1>
+      <div class="commentbox">
+        <ul id="pastcomments"></ul>
+      </div>
+      </div>
+
+      <footer >
+        <p>BookWorm's Club &copy; 2020</p>
+      </footer>
+
+      
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="comment.js"></script>
+      
+
+</body>
+</html>

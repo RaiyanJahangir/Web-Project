@@ -1,0 +1,76 @@
+body {
+    background-image: url('./images/skybluebackground.jpg');
+    background-size:100%100%;
+  }
+
+  #intro_heading{
+      font-size:80px;
+      text-align:center;
+      margin-top:10px;
+      margin-bottom:50px;
+  }
+
+  #intro_heading2{
+    font-size:60px;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+
+#back{
+    width:60%;
+    background-color:white;
+    margin:auto;
+    margin-bottom:40px;
+}
+
+#deco{
+    border-radius:50%;
+    margin-left:250px;
+    margin-bottom:10px;
+    height:400px;
+}
+
+#about{
+    color:rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    margin:auto;
+    width:70%;
+}
+
+
+
+h6{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:60px;
+    width:90%;
+    margin:auto;
+}
+
+  .intro{
+      border-color:black;
+      width:50%;
+      margin:auto;
+      
+      /*background-color: wheat;*/
+      font-family:'Times New Roman', Times, serif;
+      font-weight:bold;
+      font-size:25px;
+  }
+
+  #intro_image{
+      width:50%;
+      margin-left:20px;
+  }
+  
+  
+  footer{
+    padding:20px;
+    
+    color:#ffffff;
+
+    background-color:rgb(8,8,8);
+    text-align: center;
+  }

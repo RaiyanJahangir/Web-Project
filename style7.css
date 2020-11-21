@@ -1,0 +1,67 @@
+body {
+  background-image: url('./images/books1.jpg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+
+#logout{
+  margin-left:5px;
+}
+
+.intro{
+  border-color:black;
+  width:50%;
+  margin:auto;
+  margin-top:5px;
+  
+  /*background-color: wheat;*/
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-size:25px;
+}
+
+footer{
+  padding:20px;
+  
+  color:#ffffff;
+
+  background-color:rgb(8,8,8);
+  text-align: center;
+}
+
+#back{
+  width:60%;
+  background-color:white;
+  margin:auto;
+  margin-bottom:40px;
+}
+
+#intro_heading{
+  font-size:80px;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:50px;
+}
+
+#BookName{
+  font-size: 40px;
+}
+
+#AuthorName{
+  font-size: 35px;
+}
+
+.just_info{
+  padding-top:25px;
+  font-size: 20px;
+}
+
+#gap{
+  margin-bottom:40px;
+}
+
+#show_button{
+  /*margin-left:140px;*/
+  width:50%;
+  margin-left:60px;
+}

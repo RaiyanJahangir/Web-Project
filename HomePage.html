@@ -1,0 +1,257 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm's Club | Welcome</title>
+    <link rel="stylesheet" href="style3.css">
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+<!-- Profile Card Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/png" href="title.png">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+<script src="form.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">BookWorm's Club</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="HomePage.html" >HOME <span class="sr-only">(current)</span></a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="AboutPage.html" >ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="ContactPage.html" >CONTACT</a>
+            </li>
+          
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+        <div id="login"><button class="btn btn-outline-success my-2 my-sm-0 " type="submit" ><a href="LoginPage.html">Log In</a></button></div>
+         </nav>
+
+
+      
+      
+
+    <div class="grid">
+    <h1 class="text-center mt-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false">A Virtual Library for Book-addicts. </h1>
+    <p id="special" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Looking for books to read but can't manage them? Then you have come at the right place. Because we manage the digital versions of all sorts of book for users to read.</p>
+    <p id="special" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">Our page covers books of all fields including scientific journals, educational, short-stories, novels, horror stories and many more.</p>
+    <p id="special" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Join our community by logging in or signing up and read any types of book you want.</p>
+  <hr class="divider my-4">
+  <br><br>
+
+  <h3 id="check" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Check Our Available Books</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="card" data-aos="fade-down-right" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color: white; border-color:black; border-width:2px;">
+          <img src="./images/maths.jpg" alt=".." style="width:100%">
+          <h3 class="pn" id="show">Mathematics</h3>
+          <p class="title" id="show">Engineering</p>
+          <p><button class="bg-dark" id="show_button"><a href="MathPage.html" style="text-decoration:none; color:white">Check</a></button></p>
+        </div>
+      
+      </div>
+
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card" data-aos="fade-down" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+          <img src="./images/cse.jpg" alt=".." style="width:100%">
+          <h3 class="pn" id="show">Computer Science</h3>
+          <p class="title" id="show">Engineering</p>
+          
+          <p><button class="bg-dark" id="show_button"><a href="CSEPage.html" style="text-decoration:none; color:white">Check</a></button></p>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card" data-aos="fade-down" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+          <img src="./images/research.jpg" alt=".." style="width:100%">
+          <h3 class="pn" id="show">Journals</h3>
+          <p class="title" id="show">Research</p>
+          
+          <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="JournalsPage.html" style="text-decoration:none; color:white">Check</a></button></p>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card" data-aos="fade-down-left" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+          <img src="./images/medical.jpg" alt=".." style="width:100%">
+          <h3 class="pn" id="show">Medical Research</h3>
+          <p class="title" id="show">Research</p>
+          
+          <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="medical.html" style="text-decoration:none; color:white">Check</a></button></p>
+        </div>
+      </div>
+    
+    </div>
+    
+    <br>
+
+
+    <div class="row">
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card" data-aos="fade-right" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+          <img src="./images/plant.jpg" alt=".." style="width:100%">
+          <h3 class="pn" id="show">Plant Kingdom</h3>
+          <p class="title" id="show">Educational</p>
+          
+          <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="PlantPage.html" style="text-decoration:none; color:white">Check</a></button></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+          <img src="./images/animal.jpg" alt=".." style="width:100%">
+          <h3 class="pn" id="show">Animal World</h3>
+          <p class="title" id="show">Educational</p>
+          
+          <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="Animal.html" style="text-decoration:none; color:white">Check</a></button></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card"  data-aos="fade-up" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false"style="background-color:white; border-color:black; border-width:2px;">
+          <img src="./images/history.jpg" alt=".." style="width:100%">
+          <h3 class="pn" id="show">History</h3>
+          <p class="title" id="show">Social Science</p>
+          
+          <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="HistoryPage.html" style="text-decoration:none; color:white">Check</a></button></p>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card" data-aos="fade-left" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+          <img src="./images/space.jpg" alt=".." style="width:100%">
+          <h3 class="pn" id="show" >Astronomy</h3>
+          <p class="title" id="show">Educational</p>
+          
+          <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="AstronomyPage.html" style="text-decoration:none; color:white">Check</a></button></p>
+        </div>
+      </div>
+
+    </div>
+    <br>
+
+    <div class="row">    
+    <div class="col-md-3 col-sm-6">
+      <div class="card" data-aos="fade-down-right" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px; ">
+        <img src="./images/novels.jpg" alt=".." style="width:100%">
+        <h3 class="pn" id="show" >Novels & Stories</h3>
+        <p class="title" id="show">Recreational</p>
+        
+        <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="NovelPage.html" style="text-decoration:none; color:white">Check</a></button></p>
+      </div>
+    </div> 
+ 
+    <div class="col-md-3 col-sm-6">
+      <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+        <img src="./images/ghosts.jpg" alt=".." style="width:100%">
+        <h3 class="pn" id="show" >Horror Stories</h3>
+        <p class="title" id="show">Recreational</p>
+        
+        <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="HorrorPage.html" style="text-decoration:none; color:white">Check</a></button></p>
+      </div>
+    </div> 
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+        <img src="./images/manga.jpg" alt=".." style="width:100%">
+        <h3 class="pn" id="show" >Anime & Manga</h3>
+        <p class="title" id="show">Recreational</p>
+        
+        <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="AnimePage.html" style="text-decoration:none; color:white">Check</a></button></p>
+      </div>
+    </div> 
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card" data-aos="fade-down-left" data-aos-offset="200" data-aos-delay="400" data-aos-easing="ease-in-out"  data-aos-once="false" style="background-color:white; border-color:black; border-width:2px;">
+        <img src="./images/world.jpg" alt=".." style="width:100%">
+        <h3 class="pn" id="show" >World</h3>
+        <p class="title" id="show">Recreational</p>
+        
+        <p><button class="bg-dark" id="show_button" style="text-decoration:none; color:white"><a href="World.html" style="text-decoration:none; color:white">Check</a></button></p>
+      </div>
+    </div> 
+    </div>
+    <br><br>
+  </div>
+  <br><br><br>
+
+  </div>
+
+  <div class="container">
+    <h1 class="text-center mt-0">Know About Us</h1>
+    <hr class="divider my-4">
+    <div class="row">
+
+
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="mt-5">
+          <!--<img src="https://img.icons8.com/color/96/000000/book-shelf.png" />-->
+          <img src="images/book-shelf.png">
+          <h3 class="h4 mb-2">Books</h3>
+          <p class="text-muted mb-0">Digital copies of 2000 books are available </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="mt-5">
+          <!--<img src="https://img.icons8.com/color/96/000000/classroom.png" />-->
+         <img src="images/members.jpg">
+          <h3 class="h4 mb-2">Total Members</h3>
+          <p class="text-muted mb-0">2209 Members</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="mt-5">
+          <!--<img src="https://img.icons8.com/color/96/000000/trust.png" />-->
+          <img src="images/spreadKnowledge.jpg">
+          <h3 class="h4 mb-2">Moto</h3>
+          <p class="text-muted mb-0">Spread Knowledge and Love</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    
+  <footer >
+    <p>BookWorm's Club &copy; 2020</p>
+  </footer>
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+  </script>
+  
+</body>
+
+
+</html>
