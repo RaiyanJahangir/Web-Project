@@ -23,7 +23,7 @@
       const promise=auth.createUserWithEmailAndPassword(email.value,password.value);
       promise.catch(e=>alert(e.message));
       alert("Sign Up Successful");
-      window.location.replace("HomePage.html");
+      window.location.replace("index.html");
   }
 
   function signIn(){

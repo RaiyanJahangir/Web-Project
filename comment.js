@@ -90,8 +90,8 @@ function showpastcomments(){
       var itemData=itemSnapshot.val();
       var comment=itemData.message;
       var name=itemData.name;
-   if(name==""){
-     name="anonymous";
+   if(name=="Raiyan Jahangir"){
+     name="ADMIN";
    }
       //var when=new Date(itemData.when).toLocaleDateString("en-us");
       showat.innerHTML+="<li><u>"+name+"</u><br>"+"<span>--"+comment+"</span></li><br>";
