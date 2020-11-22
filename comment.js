@@ -54,7 +54,7 @@ function submitForm(e){
   //redirecting to home page
   
   setTimeout(function(){
-    document.location.href="HomePage.html";
+    document.location.href="ContactPage.html";
   },3050);
   
   
