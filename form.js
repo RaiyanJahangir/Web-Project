@@ -34,6 +34,7 @@
     //alert("Signed In "+email.value);
 
     //Take user to a different page
+    window.location.replace("index.html");
 }
 
 function signOut(){
